@@ -6,4 +6,8 @@ public class GenericClass<T> {
     public T getT(){
         return t;
     }
+
+    public void setT(T valueToSet){
+        this.t = valueToSet;
+    }
 }
