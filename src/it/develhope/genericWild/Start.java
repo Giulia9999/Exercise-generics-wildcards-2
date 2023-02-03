@@ -5,5 +5,7 @@ public class Start {
         GenericsClass<Integer> firstElement = new GenericsClass<>();
         GenericsClass<Integer> secondElement = new GenericsClass<>();
 
+        GenericsClass<String> thirdElement  = new GenericsClass<>();
+        GenericsClass<String> fourthElement = new GenericsClass<>();
     }
 }
