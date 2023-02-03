@@ -1,6 +1,5 @@
 package it.develhope.genericWild;
 
-import java.util.Objects;
 
 public class GenericsClass<T> {
     private T t;
