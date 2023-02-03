@@ -13,5 +13,11 @@ public class Start {
 
         thirdElement.setT("This is a string");
         fourthElement.setT("This is a string");
+
+        boolean intEquals = GenericsClass.isEqual(firstElement, secondElement);
+        boolean stringEquals = GenericsClass.isEqual(thirdElement, fourthElement);
+        System.out.printf("first element is equal to second element? %s %n", intEquals);
+        System.out.printf("third element is equal to fourth element? %s %n", stringEquals);
+
     }
 }
